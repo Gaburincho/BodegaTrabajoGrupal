@@ -1,0 +1,45 @@
+header {
+    width: 1900px;
+    height: 200px;
+    background-color: brown;
+    position: relative; /* Necesario para el posicionamiento absoluto de nav */
+}
+
+nav {
+    width: 800px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 0; /* Alineado en la parte inferior */
+    right: 0; /* Alineado en el lado derecho */
+}
+
+#section1 {
+    width: 1900px;
+    height: 800px;
+    background-color: aqua;
+}
+
+/* Contenedor para section2, section3 y section4 */
+.sections-container {
+    display: grid; /* Usar grid para alinear los elementos en fila */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    gap: 20px; /* Espacio entre las secciones (opcional) */
+    padding: 20px; /* Espacio interno (opcional) */
+}
+
+/* Estilos para section2, section3 y section4 */
+#section2, #section3, #section4 {
+    width: 300px; /* Ancho de cada sección */
+    height: 200px; /* Alto de cada sección */
+    background-color: lightgreen; /* Color de fondo de las secciones */
+    /* Puedes añadir más estilos si lo necesitas */
+}
+
+footer{
+    width: 1900px;
+    height: 200px;
+    background-color: brown;
+    position: relative; /* Necesario para el posicionamiento absoluto de nav */
+}
