@@ -1,0 +1,64 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Style for the header */
+.header {
+    background-color: #A52A2A; /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style for the productos section */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #A52A2A;
+}
+
+/* Style for the button-like link */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #A52A2A;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.button:hover {
+    background-color: #800000;
+    color: #ffffff;
+}
+

@@ -1,0 +1,60 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Style for the header */
+.header {
+    background-color: rgb(165, 42, 42); /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style for the sections */
+section {
+    margin: 20px 0;
+}
+
+/* Style for the headings within sections */
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #A52A2A;
+}
+
+/* Style for the paragraphs within sections */
+section p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+/* Style for the button-like link */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #A52A2A;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.button:hover {
+    background-color: #800000;
+    color: #ffffff;
+}
+

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Style for the heading */
+h1 {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+header {
+    width: 1900px;
+    height: 200px;
+    background-color: brown;
+    
+    position: relative; /* Necesario para el posicionamiento absoluto de nav */
+}
+.logo {
+    width: 300px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Alineado verticalmente en el centro */
+    left: 20px; /* Espacio desde el borde izquierdo */
+    transform: translateY(-50%); /* Centra verticalmente en el medio del contenedor */
+}
+
+.logo1{
+    width: 1900px;
+    height: 800px;
+}
+
+nav {
+    width: 1500px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 0; /* Alineado en la parte inferior */
+    right: 0; /* Alineado en el lado derecho */
+    overflow: hidden;
+}
+
+/* Estilo para la lista de navegación */
+.nav-list {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Muestra los elementos en una fila */
+    justify-content: space space-around; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 100%; /* Asegura que la lista ocupe toda la altura del contenedor */
+}
+
+/* Estilo para los elementos de la lista */
+.nav-list li {
+    margin: 0 90px; /* Aumenta el espacio horizontal entre los elementos de la lista */
+    display: inline;
+}
+
+/* Estilo para los enlaces dentro de la lista */
+.nav-list a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente aumentado */
+}
+
+/* Opcional: Efecto de hover para los enlaces */
+.nav-list a:hover {
+    text-decoration: underline; /* Subraya el texto cuando se pasa el cursor sobre él */
+}
+
+.nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+ 
+
+#section1 {
+    width: 1900px;
+    height: 800px;
+    background-color: aqua;
+    background-image: url('Estilos/img/bodega.jpeg');
+    background-size: 100% 100%;
+}
+
+/* Contenedor para section2, section3 y section4 */
+.sections-container {
+    display: grid; /* Usar grid para alinear los elementos en fila */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    justify-content: center; /* Centrar las columnas horizontalmente */
+    gap: 20px; /* Espacio entre las secciones (opcional) */
+    padding: 20px; /* Espacio interno (opcional) */
+}
+
+/* Estilos para section2, section3 y section4 */
+#section2, #section3, #section4 {
+    width: 300px; /* Ancho de cada sección */
+    height: 200px; /* Alto de cada sección */
+    background-color: lightgreen; /* Color de fondo de las secciones */
+    /* Puedes añadir más estilos si lo necesitas */
+}
+
+footer{
+    width: 1900px;
+    height: 200px;
+    background-color: brown;
+    position: relative; /* Necesario para el posicionamiento absoluto de nav */
+}
+
