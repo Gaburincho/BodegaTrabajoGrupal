@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 3;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    position: center; 
+}
+
+
+/* Style for the header */
+.header {
+    background-color: rgb(165, 42, 42); /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Style for the button-like link */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #A52A2A;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.button:hover {
+    background-color: #800000;
+    color: #ffffff;
+}
+footer{
+         
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    color: #333;
+    padding: 50px;
+}
